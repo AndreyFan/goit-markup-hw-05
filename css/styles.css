@@ -139,9 +139,13 @@ h3 {
   position: absolute;
   border-radius: 2px;
   left: 0px;
-  bottom: -2px;
+  bottom: -1px;
   background-color: var(--aktiv);
   z-index: 2;
+}
+
+.current-page {
+  color: var(--aktiv);
 }
 
 .menu-item {
